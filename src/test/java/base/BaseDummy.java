@@ -1,5 +1,6 @@
 package base;
 
+import data.TestDataDummy;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.specification.RequestSpecification;
 import org.junit.jupiter.api.BeforeAll;
@@ -17,10 +18,12 @@ import utilities.ConfigReader;
 public class BaseDummy {
 
     public RequestSpecification specDummy;
+    public TestDataDummy testDataDummy;
 
     @BeforeAll
     public void setUp() {
 
         specDummy = new RequestSpecBuilder().setBaseUri(ConfigReader.getProperty("DummyBaseURL")).build();
+        testDataDummy = new TestDataDummy();
     }
 }

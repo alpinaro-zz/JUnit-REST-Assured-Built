@@ -12,7 +12,7 @@ import static org.hamcrest.Matchers.*;
  * @author alpinaro (Alper Çınaroğlu)
  * https://github.com/alpinaro
  */
-public class Sample01Dummy extends BaseDummy {
+public class Sample01Dummy_GetEmployees extends BaseDummy {
 
     Response response;
 
@@ -28,8 +28,10 @@ public class Sample01Dummy extends BaseDummy {
         response.then().assertThat()
                 .statusCode(200)
                 .contentType(ContentType.JSON)
-                .body("data.id", hasSize(24),
+                .body("status", equalTo("success"),
+                        "data.id", hasSize(24),
                         "data.employee_name", hasItem("Ashton Cox"),
-                        "data.employee_age", hasItems(61, 30, 40));
+                        "data.employee_age", hasItems(61, 30, 40),
+                        "message", equalTo("Successfully! All records has been fetched."));
     }
 }
