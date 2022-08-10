@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f238ae2d-b185-451c-a526-f53eca02c5aa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/data/TestDataDummy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/Sample02Dummy_GetAnEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/Sample03Dummy_PostAnEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/Sample04Dummy_PutAnEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/Sample05Dummy_DeleteAnEmployee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseDummy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseDummy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Sample01Dummy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Sample01Dummy_GetEmployees.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/data/TestDataDummy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/data/TestDataDummy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +40,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.Sample04Dummy_PutAnEmployee">
+  <component name="RunManager" selected="JUnit.Sample05Dummy_DeleteAnEmployee">
     <configuration name="Sample01Dummy_GetEmployees (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnit-REST-Assured-Built" />
       <extension name="coverage">
@@ -56,21 +51,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.Sample01Dummy_GetEmployees" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Sample02Dummy_GetAnEmployee (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JUnit-REST-Assured-Built" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.Sample02Dummy_GetAnEmployee" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -122,13 +102,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Sample05Dummy_DeleteAnEmployee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnit-REST-Assured-Built" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.Sample05Dummy_DeleteAnEmployee" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Sample05Dummy_DeleteAnEmployee" />
+        <item itemvalue="JUnit.Sample03Dummy_PostAnEmployee" />
         <item itemvalue="JUnit.Sample04Dummy_PutAnEmployee" />
         <item itemvalue="JUnit.Sample01Dummy_GetEmployees (1)" />
-        <item itemvalue="JUnit.Sample03Dummy_PostAnEmployee" />
         <item itemvalue="JUnit.Sample03Dummy_PostAnEmployee.postAnEmployee" />
-        <item itemvalue="JUnit.Sample02Dummy_GetAnEmployee (1)" />
       </list>
     </recent_temporary>
   </component>

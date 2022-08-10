@@ -11,6 +11,8 @@ public class TestDataDummy {
     public static int getEmployeeId = 1;
     public static int putEmployeeId = 40;
 
+    public static int deleteEmployeeId = 2;
+
     // Request Bodies
     public JSONObject postEmployeeRequestBody() {
 
@@ -95,6 +97,16 @@ public class TestDataDummy {
         expectedData.put("status", "success");
         expectedData.put("data", data);
         expectedData.put("message", "Successfully! Record has been updated.");
+
+        return expectedData;
+    }
+
+    public JSONObject deleteEmployeeExpectedData() {
+
+        JSONObject expectedData = new JSONObject();
+        expectedData.put("status", "success");
+        expectedData.put("data", String.valueOf(deleteEmployeeId));
+        expectedData.put("message", "Successfully! Record has been deleted");
 
         return expectedData;
     }
